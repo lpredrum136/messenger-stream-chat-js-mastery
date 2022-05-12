@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* * {
+    @apply h-full;
+  }
+
+  body {
+    @apply m-0 p-0 h-full;
+  } */
+}
+
+@layer utilities {
+  .bg-gradient-sidebar {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+      #005fff;
+  }
+
+  .bg-gradient-sidebar-icon {
+    background: linear-gradient(
+        150.64deg,
+        rgba(0, 0, 0, 0.1) 12.73%,
+        rgba(0, 0, 0, 0) 89.32%
+      ),
+      #ffffff;
+  }
+}
+
+@layer components {
+  .flex-center {
+    @apply flex justify-center items-center;
+  }
+}

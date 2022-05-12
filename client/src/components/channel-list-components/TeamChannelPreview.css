@@ -1,0 +1,13 @@
+@tailwind components;
+
+@layer components {
+  /* test */
+  .channel-preview__item {
+    @apply flex items-center text-sm text-white px-5;
+  }
+
+  /* test */
+  .channel-preview__wrapper__selected {
+    @apply bg-[#00000033] rounded-r-lg font-bold mr-4 cursor-pointer;
+  }
+}

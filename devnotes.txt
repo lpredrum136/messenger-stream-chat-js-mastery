@@ -1,0 +1,29 @@
+git init
+cd client
+yarn create vite:
+- project name: .
+- package name: client 
+- framework: react 
+- variant: react-ts
+
+yarn add stream-chat stream-chat-react
+
+https://getstream.io/chat/trial/
+- < 2000 MAU
+
+Get started:
+- stream-chat: https://github.com/GetStream/stream-chat-js
+- stream-chat TS: https://github.com/GetStream/stream-chat-js/blob/HEAD/docs/typescript.md
+- stream-chat-react: https://getstream.io/chat/react-chat/tutorial/
+- stream-chat-react components: https://getstream.io/chat/docs/sdk/react/basics/getting_started/
+
+yarn add -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+add to tailwind.config.js as in tailwind doc
+
+server:
+- yarn init
+- yarn add bcrypt cors dotenv express getstream stream-chat twilio
+- yarn add -D nodemon typescript @types/node ts-node @types/express @types/cors @types/bcrypt
+- npx tsconfig.json hoac yarn add global tsconfig.json then tsconfig.json (no need to npx)
+
